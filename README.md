@@ -8,7 +8,7 @@
 `Valoper` bcnavaloper13qnxglysulcam3csjl3husxn4cxrjl3vnzu6t0
 
 
-`RPC` 95.165.89.222:26758`
+`RPC` 95.165.89.222:26758
 
 `Peer` 88497ab3bbbcc1e8545771f45020e738bcce590f@95.165.89.222:26756
 
