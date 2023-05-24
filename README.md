@@ -12,7 +12,7 @@
 
 `Peer` 88497ab3bbbcc1e8545771f45020e738bcce590f@95.165.89.222:26756
 
-**Start whith state-sync**
+**Start with state-sync**
 
 ```
 sudo systemctl stop bcnad && bcnad tendermint unsafe-reset-all --home $HOME/.bcna --keep-addr-book
@@ -41,7 +41,7 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bcna/config/config.toml
 ```
 
-**Enable service and start**
+*Enable service and start*
 
 ```
 sudo systemctl daemon-reload && sudo systemctl enable bcnad
